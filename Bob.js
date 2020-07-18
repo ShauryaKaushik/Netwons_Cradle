@@ -15,6 +15,8 @@ class Bob{
       var angle = this.body.angle;
       push();
       translate(this.body.position.x, this.body.position.y);  
+      ellipseMode(RADIUS);
+      ellipse(100, 150, 55, 55);
       pop();
     }
 }
